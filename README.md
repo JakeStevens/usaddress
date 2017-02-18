@@ -1,3 +1,16 @@
+National Voter File US Address Fork
+=================
+The NVF fork of usaddress intends to keep up to date with DataMade's repo. However, not all pull requests will necessarily be accepted. Thus, the following scheme will be used.
+1. The **master** branch will contain all of the pull requests that NVF accepts, as well as kept up to date with the datamade repo.
+2. A branch named **datamade** will only be kept up to date with datamade, and not contain any NVF only commits.
+3. To work on usaddress for NVF, fork the NVF:usaddress repo and switch to the **datamade** branch.
+4. Update usaddress according to the usaddress directions, found [here](https://github.com/datamade/usaddress/blob/master/training/README.md). Remember to document what test cases you added, what pattern they are updating, etc.
+5. Pull requests will be issued to the NVF:usaddress/datamade branch. If the pull request is accepted, this changes should then be merged into master by an admin.
+6. If a pull request is accepted into the NVF repo, a pull request should then be made to the usaddress repo, so that we try to keep them up to date with our work too.
+7. If a pull request to datamade's repo is accepted, the **datamade** branch in the NVF repo can be kept. If a pull request is NOT accepted, the **datamade** branch should be deleted and recreated.
+
+This way, NVF's **master** branch will contain all of datamade's commits, as well as all pull requests accepted by NVF, some of which may not be accepted by datamade, and NVF's **datamade** branch will contain ONLY datamade approved commits.
+
 usaddress
 =================
 [![Build Status](https://travis-ci.org/datamade/usaddress.svg?branch=master)](https://travis-ci.org/datamade/usaddress)[![Build status](https://ci.appveyor.com/api/projects/status/5mbcd8ku0tm66noq?svg=true)](https://ci.appveyor.com/project/fgregg/usaddress)
