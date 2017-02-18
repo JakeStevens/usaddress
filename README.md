@@ -1,6 +1,6 @@
 National Voter File US Address Fork
 =================
-The NVF fork of usaddress contains all of the commits associated with datamade's repo, as well as commits that are relevant to NVF but may not have been accepted by datamade. To contribute to this repo:
+The NVF fork of usaddress contains all of the commits associated with [datamade's repo](https://github.com/datamade/usaddress), as well as commits that are relevant to NVF but may not have been accepted by datamade. To contribute to this repo:
 
 1. Fork **datamade's** repository, **not** this repository. Make sure you are working in a new branch for each major contribution to make it easier for both datamade and NVF to accept your changes.
 
