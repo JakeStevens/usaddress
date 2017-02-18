@@ -1,6 +1,7 @@
 National Voter File US Address Fork
 =================
 The NVF fork of usaddress intends to keep up to date with DataMade's repo. However, not all pull requests will necessarily be accepted. Thus, the following scheme will be used.
+
 1. The **master** branch will contain all of the pull requests that NVF accepts, as well as kept up to date with the datamade repo.
 
 2. A branch named **datamade** will only be kept up to date with datamade, and not contain any NVF only commits.
